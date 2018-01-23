@@ -2,7 +2,15 @@
 
 
 # Purpose 
-Implements a Trivia Game using Object Serialization, Polymorphism, User Exceptions and Random Access Files
+Implements a Trivia Game using Object Serialization, Polymorphism, User Exceptions and Random Access Files.
+The purpose of the game is to take a list of quiz questions and pick 5 of them at random to ask the user. Then
+record the users results and keep track of scores. 
+
+# Serialization 
+Serilization is the process of coverting objects into byte format. It is a important form of storing of transferring objects especially among arcitecturalling indepndent environments. Serialization tends to also be very robust.
+
+# Random Access File
+RAF's are important because they help access contents of files nonsequentially this is in contrast to the sequential file. RAF tend to be faster and more efficient. If the user remembers the offset it is very easy to find the file the user is looking for. However, the one disadvantage is that if the offset is unknown then it is more difficult to access the contents of the file. In this use case a sequential file may be more beneficial. 
 
 # Classes
 ### Question
@@ -29,7 +37,7 @@ Implements a Trivia Game using Object Serialization, Polymorphism, User Exceptio
 In order to run this program you will need JDK
 Which can be found here: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-###IDE
+## IDE
 Next will need a text editor or IDE to display the program
 I used Intellji: https://www.jetbrains.com/idea/download/#section=windows
 
